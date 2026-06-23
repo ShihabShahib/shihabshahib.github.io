@@ -14,7 +14,7 @@
             line-height: 1.6;
         }
         header {
-            background: linear-gradient(135deg, #1e2937, #334155);
+            background: #303543;
             padding: 4rem 2rem;
             text-align: center;
         }
@@ -28,13 +28,30 @@
             gap: 1.5rem;
         }
         .card {
-            background: #1e2937;
+            background: #303543;
             padding: 1.5rem;
             border-radius: 12px;
             border: 1px solid #334155;
         }
         a { color: #60a5fa; text-decoration: none; }
-        footer { text-align: center; padding: 2rem; background: #1e2937; }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin: 25px 0;
+        }
+        .btn {
+            padding: 10px 18px;
+            background: #29558b;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+        }
+        .btn:hover {
+            background: #6d84a0;
+        }
+        footer { text-align: center; padding: 2rem; background: #303543; }
     </style>
 </head>
 <body>
@@ -42,6 +59,12 @@
         <h1>Shihab Uddin</h1>
         <p>Junior Software Quality Assurance Engineer</p>
         <p>Dhaka, Bangladesh</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/shihabshahib902" target="_blank" class="btn">LinkedIn</a>
+            <a href="https://github.com/ShihabShahib" target="_blank" class="btn">GitHub</a>
+            <a href="#" target="_blank" class="btn">CV</a>
+            <a href="#" target="_blank" class="btn">My Location</a>
+        </div>
     </header>
     <div class="container">
         <section>
